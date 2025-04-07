@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furientis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #FFFFFF;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .logo-image {
+            max-width: 85%;
+            max-height: 75vh; /* Limit height to ensure footer is visible */
+        }
+        
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #FFFFFF;
+            font-size: 0.9rem;
+            color: #666;
+            border-top: 1px solid #eee;
+        }
+        
+        footer a {
+            color: #007bff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <!-- Resized logo -->
+        <img src="vector.svg" alt="Furientis logo" class="logo-image">
+    </div>
+
+    <footer>
+        <div class="container">
+            &copy; Copyright 2025 Furientis &nbsp;|&nbsp; <a href="mailto:contact@furientis.com">Contact</a>
+        </div>
+    </footer>
+</body>
+</html>
